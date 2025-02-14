@@ -179,7 +179,7 @@ VALUES (129, 'Wild Safari Resort','Orange Free State','Bloemfontein', 'South Afr
 INSERT INTO HotelFacilities (hid, hname, hstate, hcity, hcountry, hzipcode, hotel_rating, hotel_capacity, rooms_per_facility, htype)
 VALUES (137, 'Spanish Heritage Resort','Vizcaya provincia','Bilbao', 'Spain', '17874', 7, 200, 30, 'Resort');
 INSERT INTO HotelFacilities (hid, hname, hstate, hcity, hcountry, hzipcode, hotel_rating, hotel_capacity, rooms_per_facility, htype)
-VALUES (147, 'Vintage Düsseldorf','North Rhine-Westphalia','Düsseldorf', 'Germany', '41898', 6, 250, 40, 'Lodging Facility');
+VALUES (147, 'Vintage DÃ¼sseldorf','North Rhine-Westphalia','DÃ¼sseldorf', 'Germany', '41898', 6, 250, 40, 'Lodging Facility');
 INSERT INTO HotelFacilities (hid, hname, hstate, hcity, hcountry, hzipcode, hotel_rating, hotel_capacity, rooms_per_facility, htype)
 VALUES (149, 'Unicorn Rainbow Resort','North Carolina','New Bern', 'USA', '75231', 9, 200, 45, 'Resort');
 INSERT INTO HotelFacilities (hid, hname, hstate, hcity, hcountry, hzipcode, hotel_rating, hotel_capacity, rooms_per_facility, htype)
@@ -257,7 +257,7 @@ VALUES ('E110', NULL, 'Zoe, Zach', 49000.00, 'Inactive', 'Staff', TO_DATE('1993-
 INSERT INTO Employees (emp_id, sid, dependents, salary, status, role, date_of_birth, start_date, education, criminal_record, certification, hours, first_name, last_name, hot_id)
 VALUES ('E111', NULL, 'Diego, Isabella', 43000.00, 'Active', 'Analyst', TO_DATE('1981-09-08', 'YYYY-MM-DD'), TO_DATE('2019-12-01', 'YYYY-MM-DD'), 'Masters Degree', 'None', 'Analytical Certification', 36, 'Manuel', 'Alvarez', 137);
 INSERT INTO Employees (emp_id, sid, dependents, salary, status, role, date_of_birth, start_date, education, criminal_record, certification, hours, first_name, last_name, hot_id)
-VALUES ('E112', NULL, NULL, 56000.00, 'Active', 'Staff', TO_DATE('1986-11-20', 'YYYY-MM-DD'), TO_DATE('2015-08-05', 'YYYY-MM-DD'), 'Bachelors Degree', 'Gang Offender', 'Leadership Certification', 34, 'Adolf', 'Günter', 147);
+VALUES ('E112', NULL, NULL, 56000.00, 'Active', 'Staff', TO_DATE('1986-11-20', 'YYYY-MM-DD'), TO_DATE('2015-08-05', 'YYYY-MM-DD'), 'Bachelors Degree', 'Gang Offender', 'Leadership Certification', 34, 'Adolf', 'GÃ¼nter', 147);
 INSERT INTO Employees (emp_id, sid, dependents, salary, status, role, date_of_birth, start_date, education, criminal_record, certification, hours, first_name, last_name, hot_id)
 VALUES ('E113', NULL, 'Atlan,Batu', 46000.00, 'Active', 'Staff', TO_DATE('1986-11-20', 'YYYY-MM-DD'), TO_DATE('2015-08-05', 'YYYY-MM-DD'), 'Bachelors Degree', 'None', 'Management Certification', 34, 'Arban', 'Temullen', 149);
 INSERT INTO Employees (emp_id, sid, dependents, salary, status, role, date_of_birth, start_date, education, criminal_record, certification, hours, first_name, last_name, hot_id)
